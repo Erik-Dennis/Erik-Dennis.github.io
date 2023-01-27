@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nerp Tech :: Requests</title>
+    <link rel="stylesheet" href="NerpTech.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="index.html">Nerp Tech</a></h1>
+        <h2>Requests</h2>
+    </header>
+
+    <nav>
+
+        <ul>
+            <!--self-hosted public domain tbd-->
+            <li id="link1"><a href="index.html">Home</a>&nbsp;</li> 
+            <!--Services will list options for monthy or single time payment and what is covered-->
+            <li id="link2"><a href="services.html">Services</a>&nbsp;</li> 
+            <!--Requests will likely utilize calendly for scheduling-->
+            <li id="link3"><a href="requests.html">Requests</a>&nbsp;</li> 
+            <li id="link4"><a href="#contact">Contact info</a></li>
+        </ul>
+            
+    </nav>
+
+    <main>
+
+        <div id="center-form">
+            <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+
+                <label for="firstname"><span class="req">*</span>First Name</label>
+                <input type="text" name="firstname" id="firstname" required>
+
+                <br>
+
+                <label for="lastname"><span class="req">*</span>Last Name</label>
+                <input type="text" name="lastname" id="lastname" required>
+
+                <br>
+
+                <label for="email"><span class="req">*</span>Email</label>
+                <input type="email" name="email" id="email" required>
+
+                <br>
+
+                <label for="tel">Phone Number</label>
+                <input type="tel" name="tel" id="tel">
+
+                <br>
+
+                <label for="comments"><span class="req">*</span>Comments</label>
+                <textarea name="comments" id="comments" cols="30" rows="3" required></textarea>
+
+                <br>
+                <br>
+                <br>
+
+                <label for="RAM-Upgrade">RAM Upgrade</label>
+                <input type="checkbox" name="RAM-Upgrade" id="RAM-Upgrade">
+                
+
+                <br>
+
+                <label for="HD-Upgrade">Hard Drive Upgrade</label>
+                <input type="checkbox" name="HD-Upgrade" id="HD-Upgrade">
+                
+
+                <br>
+
+                <label for="Date-Time-Battery">Date and Time Battery Replacement</label>
+                <input type="checkbox" name="Date-Time-Battery" id="Date-Time-Battery">
+                
+
+                <br>
+
+                <label for="Plex-Media-Server">Plex Media Server</label>
+                <input type="checkbox" name="Plex-Media-Server" id="Plex-Media-Server">
+                
+
+                <br>
+
+                <label for="Smart-Home-Controller">Smart Home Controller</label>
+                <input type="checkbox" name="Smart-Home-Controller" id="Smart-Home-Controller">
+                
+
+                <br>
+
+                <label for="Network-Attatched-Storage">Network Attatched Storage (NAS)</label>
+                <input type="checkbox" name="Network-Attatched-Storage" id="Network-Attatched-Storage">
+                
+
+                <br>
+
+                <label for="Automatic-Backups">Automatic Backups</label>
+                <input type="checkbox" name="Automatic-Backups" id="Automatic-Backups">
+                
+                
+                <br>
+
+                <input type="submit" name="submit" id="submit">
+            </form>        
+        </div>
+    </main>
+
+    <footer id="footer-requests">
+
+            <br id="nav-clear">
+            Nerp Tech: <br> <br>
+            <div id="contact">
+            Erik Dennis: <br>
+            <!--Email will be created but does NOT currently exist-->
+            <a href="mailto:erik.dennis@nerptech.com"><b>erik.dennis@nerptech.com</b></a> <br>
+            (123)-456-7890 <br> <br>
+            Copyright &copy; Nerp Tech 2022
+            <br>
+            Copyright &copy; Erik Dennis 2022
+            </div>
+
+    </footer>
+    
+</body>
+</html>

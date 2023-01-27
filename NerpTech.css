@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(27, 24, 36);
+    color: white;    
+    margin: auto;
+    
+}
+
+#cableManagement {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+caption {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#center-form {
+    margin-top: 30px;
+    margin-left: 650px;
+}
+
+#contact {
+    
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+}
+
+#disassembled {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(27, 24, 36);
+    margin-bottom: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #876fee;
+    font-weight: bold;    
+}
+
+#footer-services {
+    margin-top: 200px;
+}
+
+#footer-requests {
+    margin-top: 100px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+h2 {
+    text-align: center;
+    color: #707070;
+}
+
+header {
+    background-color: rgb(27, 24, 36);
+    margin-left: 170px;
+}
+
+input {
+    display: block;
+}
+
+input[type=submit] {
+    margin-left: 140px;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    padding-right: 5px;
+    width: 140px;
+}
+
+#link1 {
+    transition-duration: 2s;
+}
+
+#link1:hover {
+    background-color: #1c1b27;
+}
+
+#link2 {
+    transition-duration: 2s;
+}
+
+#link2:hover {
+    background-color: #1c1b27;
+}
+
+#link3 {
+    transition-duration: 2s;
+}
+
+#link3:hover {
+    background-color: #1c1b27;
+    
+}
+
+#link4 {
+    transition-duration: 2s;
+}
+
+#link4:hover {
+    background-color: #1c1b27;
+}
+
+main {
+    overflow: auto;
+    text-align: center;
+}
+
+main ul {
+    text-align: center;
+    list-style: none;
+}
+
+nav {
+    float: left;
+    background-image: linear-gradient(to bottom, #4f478a, #1c1b27);
+    text-align: left;
+    padding-right: 2em;
+}
+
+nav a {
+    color: #7d9aeb;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+
+#nav-clear {
+    clear: both;
+}
+
+nav ul {
+    list-style: none;
+    float: left;
+}
+
+#Service-Setup {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.req {
+    color: red;
+}
+
+#server {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+table {
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+    color: rgb(221, 151, 0);
+}
+
+textarea {
+    display: block;
+}
+
+th {
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+    color: #ce2d2d;
+}
+
+#Upgrades-Repairs {
+    margin-top: 50px;
+}
