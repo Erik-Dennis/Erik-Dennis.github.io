@@ -1,0 +1,81 @@
+#bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: #494573;
+}
+
+
+#bioText {
+    padding-left: 10px;
+}
+
+body {
+    background: rgb(39, 46, 45);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#classLists {
+    display: flex;
+    justify-content: center;
+    background-color: #4b4d7a;
+}
+
+#classLists ul {
+    text-align: left;
+}
+
+footer {
+    background-color: #698692;
+    padding-bottom: 100px;
+    margin-top: auto;
+}
+
+header {
+    text-align: center;
+    background-color: #70A9A1;
+}
+
+#macroPi{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#macroPiDescription{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 650px;
+}
+
+#macroPiPic {
+    height: 400px;
+    width: auto;
+}
+
+nav {
+    background-color: rgb(120, 120, 138);
+}
+
+nav ul {
+    list-style: none;
+    color: black;
+}
+
+nav li {
+    display: inline;
+}
+
+#profilePic {
+    height: 400px;
+    width: auto;
+    display: inline-block;
+}
+
