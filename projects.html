@@ -24,62 +24,34 @@
 
     <main>
         <div id="wrapper">
+            <div id="ProjectsList">
+                <ul>
+                    <li>
+                        <div class="project" id="MacroPiProject">
+                                
+                            <a href="./Projects-bin/Macro-Pi.html">
+                                <span class="link-spanner"></span>
+                            </a>
 
-            <div id="MacroPi">
+                            <img src="./Media/Macro-Pi.jpg" alt="Picture of the Macro Pi program" id="MacroPiProjectThumbnail">
+                            
+                                <a href="./Projects-bin/Macro-Pi.html">Macro Pi</a>
+                        </div>
+                    </li>
 
-                <div id="MacroPiHeader">
-                    <h3>Macro Pi</h3>
-                </div>
-                
-                <div id="macroPic">
-                    <img src="./Media/Macro-Pi.jpg" alt="LCD Screen Raspberry Pi Macro Pad" id="macroPiPic">
-                </div>
-                
-                <div id="macroPiDescription">
-                    <p>
-                        The Macro Pi is a project that I built using a combination of a Raspberry Pi 4 (64 bit, 4 core CPU, <br>
-                        4GB RAM, with a wireless card for 2.4GHz WiFi and Bluetooth), a 3.5 inch LCD screen/case that <br>
-                        attached to the GP I/O pins, and some python and bash scripting. While the hardware may be a little <br>
-                        overkill for something this small of scale the end result was quite nice. <br>
-                        
-                        <br>
+                    <li>
+                        <div class="project" id="RootedPhone">
+                            <a href="./Projects-bin/Rooted-Phone.html">
+                                <span class="link-spanner"></span>
+                            </a>
+                            
+                            <img src="./Media/Rooted-Phone.jpg" alt="Picture of a rooted Moto G6 phone" id="RootedPhoneProjectThumbnail">
 
-                        The Macro Pi utilizes the os.system() function to interact with the system terminal. It then calls <br>
-                        the screen command with the argument -S to name the screen and -dm to detach the screen from the <br>
-                        current terminal session as referred to in the <a href="https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/">documentation</a>. <br>
+                            <a href="./Projects-bin/Rooted-Phone.html">Rooted Phone</a>
 
-                        <br>
-
-                        The GUI was created with the tkinter library and programs are called on button press. An example of <br>
-                        the Steam Flatpak being called looks something like this: <br>
-
-                        <br>
-
-                            def steam(): <br>
-                                os.system(‘screen -S Steam -dm ssh localServerIP “export DISPLAY=serverSessionNumber && flatpak run com.valvesoftware.Steam”’) <br>
-
-                                <br>
-
-                        and then the function steam being passed through to the command variable in the ttk.Button: <br>
-
-                        <br>
-
-                            ttk.Button(frm, text=”Steam”, command=steam).grid(column=1, row=2) <br>
-
-                        <br>
-
-                        The portion “export DISPLAY=” needs to be set to the tty session of the server which can be found <br>
-                        by running the “w” command in the terminal. For my personal configuration the tty session is “:1” <br>
-                        so it would look like “export DISPLAY=:1”. This allows the graphical application to open on the <br>
-                        server rather than on the client. In this case without exporting the display the application would <br>
-                        attempt to open on the Raspberry Pi instead of opening on the laptop or desktop you are trying to <br>
-                        control. <br>
-
-                        <br>
-
-                        The code can be found <a href="https://github.com/Erik-Dennis/Macro-Pi.git" target="_blank">here</a> at my GitHub 
-                    </p>
-                </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </main>
